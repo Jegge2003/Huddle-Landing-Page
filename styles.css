@@ -1,0 +1,165 @@
+html,
+body {
+  background-color: hsl(257, 40%, 49%);
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  z-index: 99;
+  margin: 30px 0 0 50px;
+}
+
+.mockup {
+  position: absolute;
+  z-index: 99;
+  margin: -650px 0 0 50px;
+}
+
+.attribution {
+  position: absolute;
+  z-index: 99;
+  margin: -50px 0 0 550px;
+}
+
+.build {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  z-index: 99;
+  color: white;
+  font-size: 50px;
+  margin: -610px 0 0 850px;
+}
+
+.fans {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  z-index: 99;
+  color: white;
+  font-size: 50px;
+  margin: -540px 0 0 850px;
+}
+
+.huddle {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  z-index: 99;
+  color: white;
+  margin: -450px 0 0 850px;
+  width: 465px;
+}
+
+#searchbtn {
+  padding: 5px 35px 0 50px;
+  margin: -350px 0 100px 850px;
+  color: hsl(257, 40%, 49%);
+  background: white;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 60px;
+  height: 50px;
+  border-radius: 40px 40px 40px 40px !important;
+  position: absolute;
+  z-index: 99;
+  width: 250px;
+}
+
+.icons {
+  position: absolute;
+  z-index: 99;
+  margin: -100px 0 0 1250px;
+}
+
+@media (max-width: 450px) {
+  html,
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+  }
+
+  .logo {
+    position: absolute;
+    z-index: 99;
+    margin: 30px 0 0 15px;
+  }
+
+  .mockup {
+    position: absolute;
+    z-index: 99;
+    margin: -650px 0 0 15px;
+    width: 50px;
+  }
+
+  .bg {
+    visibility: hidden;
+  }
+
+  .attribution {
+    position: absolute;
+    z-index: 99;
+    margin: -50px 0 0 550px;
+  }
+
+  .build {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    z-index: 99;
+    color: white;
+    font-size: 50px;
+    margin: -70px 0 0 80px;
+    width: 1500px;
+  }
+
+  .fans {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    z-index: 99;
+    color: white;
+    font-size: 50px;
+    margin: -20px 0 0 110px;
+    width: 1500px;
+  }
+
+  .huddle {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    z-index: 99;
+    color: white;
+    margin: 70px 0 0 70px;
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #searchbtn {
+    padding: 5px 35px 0 50px;
+    margin: 290px 0 100px 140px;
+    color: hsl(257, 40%, 49%);
+    background: white;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 60px;
+    height: 80px;
+    border-radius: 40px 40px 40px 40px !important;
+    position: absolute;
+    z-index: 99;
+    width: 400px;
+  }
+
+  .icons {
+    position: absolute;
+    margin: 400px 0 0 270px;
+    width: 500px;
+  }
+
+  .attribution {
+    margin: 450px 0 0 150px;
+    width: 500px;
+  }
+
+  .mobile {
+    background-image: url("./images/bg-mobile.svg");
+  }
+}
